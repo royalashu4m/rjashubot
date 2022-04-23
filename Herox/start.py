@@ -56,7 +56,7 @@ async def start_private(client: Client, message: Message):
         f"""ʜᴇʟʟᴏ [✨]({START_PIC}) **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @LittelStar_org**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -70,7 +70,7 @@ async def start_private(client: Client, message: Message):
                     InlineKeyboardButton(
                     "• Oᴡɴᴇʀ ", 
                     url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/LittelStar_org"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -82,7 +82,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyAbhi-Music"
+                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/royalashu4m/rjashubot"
                     )
                 ],
             ]
@@ -138,7 +138,7 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
     await message.reply_photo(
-        photo="https://telegra.ph/file/5997033f6152b4e66248c.jpg",
+        photo="https://telegra.ph/file/2c1035f056f495a59e1c6.jpg",
         caption=f"""<b>🏓 ᴩᴏɴɢ #𝗛𝗲𝗿𝗼𝘅_𝗠𝘂𝘀𝗶𝗰 !</b>\n   `{delta_ping * 1000:.3f} ᴍs`""",
         reply_markup=InlineKeyboardMarkup(
             [
