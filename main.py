@@ -11,7 +11,7 @@ async def start_bot():
     await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
-    await bot.join_chat("TrickyAbhii_Op")
+    await bot.join_chat("LittelStar_org")
     await Herox.send_message(
                SUPPORT,
             "<b>Congrats!! Music Bot has started successfully!</b>",
