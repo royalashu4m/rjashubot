@@ -18,7 +18,7 @@ async def start_op(_, query: CallbackQuery):
               f"""ʜᴇʟʟᴏ [✨]({START_PIC}) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @LittelStar_org**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -32,7 +32,7 @@ async def start_op(_, query: CallbackQuery):
                     InlineKeyboardButton(
                     "• Oᴡɴᴇʀ •", 
                     url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/LittelStar_org"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -44,7 +44,7 @@ async def start_op(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyAbhi-Music"
+                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/royalashu4m/rjashubot"
                     )
                 ],
             ]
@@ -85,7 +85,7 @@ async def cbcmd(_, query: CallbackQuery):
 • `/clean` - clear storage 
 
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [ASHU_ORG](https://t.me/LittelStar_org) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("• ʙᴀᴄᴋ", callback_data="cb_start")]]
         ),
